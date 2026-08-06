@@ -203,7 +203,7 @@ export default function WealthDockApp() {
             rel="noreferrer"
             className="version-pill"
           >
-            Open source · v1.0.0
+            Open source · v1.0.1
           </a>
         </div>
       </aside>
