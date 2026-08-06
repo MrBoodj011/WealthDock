@@ -4,6 +4,13 @@ All notable changes are documented here. The project follows Semantic Versioning
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-08-06
+
+### Fixed
+
+- Made root-layout typing independent from generated `.next` declarations so a
+  clean checkout can run TypeScript validation before the first build.
+
 ## [1.0.1] - 2026-08-06
 
 ### Fixed
