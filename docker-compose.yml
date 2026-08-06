@@ -1,0 +1,15 @@
+services:
+  wealthdock:
+    build:
+      context: .
+    image: wealthdock:local
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

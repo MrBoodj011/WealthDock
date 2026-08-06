@@ -1,0 +1,12 @@
+.git
+.github
+.next
+node_modules
+coverage
+docs/screenshots
+playwright-report
+test-results
+*.log
+*.wdock
+.env*
+!.env.example

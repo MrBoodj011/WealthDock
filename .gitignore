@@ -32,6 +32,15 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# local financial exports and test artifacts
+*.wdock
+wealthdock-*.json
+wealthdock-*.csv
+wealthdock-*.pdf
+/playwright-report/
+/test-results/
 
 # vercel
 .vercel
